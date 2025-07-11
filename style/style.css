@@ -362,11 +362,14 @@ main{
 /*Get in Touch Section*/
 
 .contact-form{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     min-height: 632px;
+
+    padding-top: 50px;
 }
 
 .left, .right{
@@ -443,4 +446,68 @@ label{
     .submit-btn{
         color: #202020;
     }
+}
+
+/*footer*/
+
+footer{
+
+    min-width: 1200px;
+    min-height: 428px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-section h1,p{
+    text-align: center;
+}
+
+.footer-section h1{
+    font-family: 'Helvetica';
+    font-size: 100px;
+    color: #4e47ff;
+    margin-bottom: 0;
+}
+
+.footer-section p{
+    max-width: 550px;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    line-height: 26px;
+    color: #202020;
+    margin-bottom: 0;
+}
+
+nav{
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-family: 'Helvetica';
+    font-size: 18px;
+    text-decoration: none;
+    color: #202020;
+}
+
+nav ul li a:hover{
+    
+    text-decoration: none;
+    color: #4e47ff;
 }
