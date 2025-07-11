@@ -15,12 +15,13 @@ header{
     justify-content: center;
 }
 
-nav{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-nav{
     min-width: 1200px;
+    padding-top: 50px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:  center;
 }
 
 .logo{
@@ -483,7 +484,7 @@ footer{
 }
 
 nav{
-    margin-top: -40px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -505,7 +506,6 @@ nav ul li a{
     text-decoration: none;
     color: #202020;
 }
-
 nav ul li a:hover{
     
     text-decoration: none;
