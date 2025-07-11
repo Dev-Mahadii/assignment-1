@@ -358,3 +358,89 @@ main{
     border-radius: 12px;
 }
 
+
+/*Get in Touch Section*/
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 632px;
+}
+
+.left, .right{
+    max-width: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form h1{
+    font-family: "Helvetica";
+    font-size: 97px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #name{
+
+    min-width: 497px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    padding: 20px 32px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+
+textarea{
+    min-width: 497px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    padding: 20px 32px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px; 
+}
+
+label{
+    font-family: 'Helvetica';
+    font-size: 18px;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.submit{
+
+    max-width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: #4e47ff;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.submit:hover{
+    background-color: #fff;
+
+    .submit-btn{
+        color: #202020;
+    }
+}
