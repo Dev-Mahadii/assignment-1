@@ -6,7 +6,7 @@ body{
     background-image: url('/assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 918px;
+    min-height: 818px;
 }
 
 header{
@@ -42,6 +42,48 @@ nav{
     border-radius: 10px;
 }
 .signup-btn:hover{
+    text-decoration: none;
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: white;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 12px;
+}
+
+/*Hero title with button secction*/
+
+.hero-titile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 580px;
+}
+
+.hero-title{
+    font-family: 'Helvetica';
+    font-size: 72px;
+    text-align: center;
+    align-items: center;
+}
+
+.stay-focused-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: #4e47ff;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 10px;
+}
+
+.stay-focused-btn:hover{
     text-decoration: none;
     color: #202020;
     font-size: 16px;
