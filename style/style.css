@@ -1,6 +1,7 @@
 body{
     
     margin: 0 auto;
+    background-color: #f5f8ff;
 }
 #hero-section{
     background-image: url('/assets/Hero-bg.png');
@@ -93,4 +94,68 @@ nav{
     padding: 15px 36px;
     border: 1px solid #4e47ff;
     border-radius: 12px;
+}
+
+/*Launch Live Preview Section*/
+
+.action-section{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:116px 0;  
+}
+.in-action-section h2{
+    font-family: 'Helvetica';
+    font-size: 42px;
+    color: #252432;
+}
+
+.in-action-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.in-action-section p{
+
+    margin-top: -20px;
+    font-family: 'Helvetica';
+    max-width: 500px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    font-weight: 400;
+
+}
+
+.launch-preview-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: #4e47ff;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 10px;
+}
+
+.launch-preview-btn:hover{
+    text-decoration: none;
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: white;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 12px;
+}
+
+.wc-mini-img{
+    border-radius: 36px;
 }
