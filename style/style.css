@@ -296,3 +296,65 @@ main{
     font-size: 14px;
     color: #757575;
 }
+
+/*Focus Section*/
+
+.focus{
+    background-color: white;
+    padding: 72px;
+    border-radius: 12px;    
+}
+
+.focus-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.focus-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: #4e47ff;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 10px;
+}
+.focus-btn:hover{
+    text-decoration: none;
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+    background-color: white;
+    padding: 15px 36px;
+    border: 1px solid #4e47ff;
+    border-radius: 12px;
+}
+
+.focus-text{
+    text-align: center;
+}
+
+.focus-text h2{
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 56px;
+}
+.focus-text p{
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.focus-img img{
+    border-radius: 12px;
+}
+
